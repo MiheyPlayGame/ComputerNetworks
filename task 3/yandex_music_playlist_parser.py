@@ -187,7 +187,15 @@ def save_to_csv(rows, path):
     print(f"Записано треков в CSV: {len(rows)} — {path}")
 
 
-def run_parser(use_auth=False, headless=True):
+def run_parser(use_auth=False, headless=True, playlist_url=None, save_csv=True):
+    """
+    Запуск парсера. playlist_url — ссылка на плейлист Яндекс.Музыки;
+    если не передана, используется CHART_URL по умолчанию.
+    save_csv — сохранять ли результат в CSV (при вызове из API можно False).
+    """
+    url = (playlist_url or CHART_URL).strip()
+    if not url.startswith(("http://", "https://")):
+        url = "https://" + url
     all_tracks = []
 
     with sync_playwright() as p:
@@ -199,7 +207,7 @@ def run_parser(use_auth=False, headless=True):
         page = context.new_page()
 
         try:
-            page.goto(CHART_URL, wait_until="domcontentloaded", timeout=20000)
+            page.goto(url, wait_until="domcontentloaded", timeout=20000)
             page.wait_for_load_state("networkidle", timeout=15000)
         except PlaywrightTimeout:
             print(
@@ -245,7 +253,8 @@ def run_parser(use_auth=False, headless=True):
         # Перенумеровываем позиции и сохраняем
         all_tracks = [{**t, "position": i + 1} for i, t in enumerate(accumulated)]
 
-        save_to_csv(all_tracks, CSV_PATH)
+        if save_csv:
+            save_to_csv(all_tracks, CSV_PATH)
 
         context.close()
         browser.close()
