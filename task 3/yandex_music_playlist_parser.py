@@ -9,12 +9,12 @@ OUTPUT_DIR = Path(__file__).resolve().parent
 CSV_PATH = OUTPUT_DIR / "yandex_music_tracks.csv"
 AUTH_STATE_PATH = OUTPUT_DIR / "yandex_music_auth_state.json"
 
-# URL для парсинга (публичный чарт)
-CHART_URL = "https://music.yandex.ru/chart"
+# URL для парсинга (плейлист)
+CHART_URL = "https://music.yandex.ru/playlists/lk.0c977663-be2c-4be3-b48c-f12ff1fbea57"
 
-PAGINATION_MAX_SCROLLS = 80  # max scroll attempts to avoid infinite loop
-SCROLL_PAUSE_SEC = 0.6
-NO_NEW_CONTENT_SCROLLS = 4  # stop after this many scrolls with no new tracks
+PAGINATION_MAX_SCROLLS = 100  # max scroll attempts to avoid infinite loop
+SCROLL_PAUSE_SEC = 0.8
+NO_NEW_CONTENT_SCROLLS = 5  # stop after this many scrolls with no new tracks
 SCROLL_STEP_PX = (
     350  # scroll by this many px per step (virtualized list needs small steps)
 )

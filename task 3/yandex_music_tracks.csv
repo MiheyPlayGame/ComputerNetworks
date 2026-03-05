@@ -1,26 +1,635 @@
 position,title,artists,duration
-1,Vielleicht Vielleicht,"MilleniumKid, jbs, Holy Priest, itgmq Hardstyle",02:41
-2,Чегери,SHAMO,02:29
-3,Ничего нового,"Atlantida Project, Noize MC",04:31
-4,Скандалы и споры,COMEDOZ,04:45
-5,Homay,AY YOLA,04:05
-6,G-Woman,ICEGERGERT,02:21
-7,Вот уж вечер. Роса ft. С. Есенин,10AGE,03:56
-8,так по***,madk1d,01:48
-9,Цыганка нагадала,Artem Smile,02:37
-10,По камушку,Settlers,03:29
-11,SHOW EM,"Aarne, Toxi$",02:03
-12,MATADORA,DJ Asul,01:39
-13,ЗАЧЕМ?,NEXTIME,01:33
-14,TOKYO,SQWOZ BAB,02:41
-15,KOOP,"Big Baby Tape, OG Buda",02:33
-16,Последняя Любовь,MORGENSHTERN,02:43
-17,Где бы я ни был,BUSHIDO ZHO,02:22
-18,Настоящая,Ваня Дмитриенко,02:23
-19,Жить красиво,MONOVIKA,02:30
-20,Карта битая,Kiliana,02:16
-21,10,Эндшпиль,02:44
-22,Есенин,"NAVAI, MONA",02:51
-23,Odnogo,DJ BRATT,02:21
-24,Irkutsk power,"ICEGERGERT, OBLADAET",02:01
-25,Рычаг Архимеда,Norma Tale,00:00
+1,Cha Cha Cha,Käärijä,02:55
+2,Взрослая Жизнь,РАССВЕТОВ,04:29
+3,Философский камень,Би-2 & Prague Metropolitan Symphonic Orchestra,04:40
+4,come to brazil,bbno$,02:13
+5,Seven Seas,Maurice West,03:09
+6,Культура,"PLC, The Hatters",03:47
+7,Едой едины,SuperZloy,03:40
+8,Драккар,"Norma Tale, Gilead",03:02
+9,APT.,"Rosé, Bruno Mars",02:50
+10,in my zone,"VALORANT, bbno$",02:52
+11,SPAGHETTI,"LE SSERAFIM, j-hope",02:52
+12,Ezio's Family,Jesper Kyd,03:58
+13,Мост в Терабитию,Norma Tale,03:13
+14,чёртово колесо,mzlff,02:36
+15,Заговор,DEKADANCE,04:36
+16,Это было в России,Монеточка,03:14
+17,магия,нежность на бумаге,00:00
+18,Многоликая,"Рок-Опера Орфей, Egorov",04:04
+19,Burn,M.E.O.W,03:19
+20,Ножницы,"Norma Tale, TWINKY",02:54
+21,не нужен никому,МИР,04:53
+22,Ковчег,Монеточка,03:47
+23,Papaoutai,Stromae,03:52
+24,Бэкап,"DEEP-EX-SENSE, Лжедмитрий IV",04:57
+25,ДЕЛОРИАН,Джарахов,03:28
+26,Чернокнижник,Noize MC,02:50
+27,Пока не кончится зима,Soltwine,03:18
+28,ты случилась,мартин,02:21
+29,Free Bird,MOONLGHT,01:54
+30,Никто не хотел умирать,"Plamenev, Sofiko Kardava",03:13
+31,Витаминка,Тима Белорусских,02:56
+32,Стоматологическая народная,Арчет,02:58
+33,Atlan Battleground,Finishing Move Inc.,05:36
+34,Unchained Predator,Finishing Move Inc.,05:45
+35,When the Shadows First Lengthened,Finishing Move Inc.,03:07
+36,At Doom's Gate,Mick Gordon,01:11
+37,Rip & Tear,Mick Gordon,04:18
+38,Здесь только море,Монеточка,02:35
+39,Это не игра,Чулпан Хаматова,03:46
+40,Цифры,ExTeam,02:06
+41,ОМСК,нексюша,02:48
+42,Пугало,"Детский метал-хор Всесоюзного радио, ANTARCTIC",03:01
+43,Мориарти,DEKADANCE,03:58
+44,Солнечный круг,Тараканы!,03:12
+45,Ночь,"Женя Трофимов, Комната культуры",03:23
+46,Вишневый сад,Звери,03:54
+47,Daylight,David Kushner,03:33
+48,Hallelujah,Rufus Wainwright,04:09
+49,Arcade,"Duncan Laurence, FLETCHER",03:05
+50,Daylight (Cinematic),David Kushner,04:02
+51,Дышать и жить,Asper X,02:54
+52,Город,PRAVADA feat. Светлана Сурганова,03:32
+53,Последняя битва убийцы великанов II,лунный бард,03:56
+54,Наш Мир,"Fun Mode, Plamenev",04:18
+55,Perfect,Ed Sheeran,04:23
+56,Не вырос,Soltwine,02:49
+57,Не волшебник,Norma Tale,03:16
+58,Абсент,"Norma Tale, Asper X",02:40
+59,26.04,Noize MC,03:50
+60,Thunderstruck,AC/DC,05:45
+61,Crucified,Ghost,05:13
+62,JELLY,"Tokyo Machine, Snail's House",03:02
+63,Эликсир,Norma Tale,02:23
+64,Горизонты,Ближе,03:31
+65,Арабская ночь,Алексей Чумаков,03:13
+66,Пожар,"Рок-опера «Олонион», Никита Кучихидзе, Rocky Argonium",03:20
+67,Улетай на крыльях ветра,"Братство Атома, HELVEGEN",02:40
+68,Наследие Илая,SKG Records,03:17
+69,Песня про правки,Арчет,02:15
+70,Полька Евы,Norma Tale,02:00
+71,Голос Времени,Yellow Fire,03:15
+72,Catharsis,M.E.O.W,02:42
+73,Профи,El Mashe,03:22
+74,13 карт — раньше было лучше,Студия «Феникс»,01:51
+75,13 карт - Цитаты великих людей,Студия «Феникс»,01:44
+76,13 карт — доброта,Студия «Феникс»,00:58
+77,Beautiful Things,Benson Boone,03:00
+78,Рагнарёк (С Новым годом!),"Роман Рябцев, Иван Жарков, Сергей Пономарёв",04:00
+79,FOTC,Blitz Union,03:04
+80,Incredible,Gary Barlow,02:45
+81,Teeth,5 Seconds of Summer,03:26
+82,XVII,RAVANNA,03:08
+83,My Car,Imagine Dragons,02:32
+84,Кометы,"Драгни, Максим Свобода",04:27
+85,Сингулярность,"Norma Tale, гокки",04:18
+86,Призраки настоящего,"Лжедмитрий IV, ТЕППО, DEEP-EX-SENSE",02:56
+87,Here I Am,"Bryan Adams, Hans Zimmer",03:34
+88,Incredible Christmas,Gary Barlow,02:44
+89,Try Everything,Alegra,03:18
+90,Christmas Every Day,Simple Plan,03:46
+91,Птицы,RAVANNA,03:05
+92,Я буду любить тебя вечно,Asper X,02:54
+93,Танец архангелов,Лжедмитрий IV,05:32
+94,Рагнарёк,"Роман Рябцев, Иван Жарков, Сергей Пономарёв",03:47
+95,Бал забвения,"Ясвена, Рок-Опера Орфей",03:05
+96,Голубая стрела,Norma Tale,02:48
+97,Наш мир,Plamenev,04:18
+98,Я люблю донаты,Арчет,01:19
+99,Бесплатно – да!,Арчет,01:54
+100,А мы дольше производим гвозди по госту,Арчет,01:53
+101,We Drink Your Blood,Powerwolf,03:45
+102,Аниме,Terracotta,02:43
+103,Инфоцыгане,К.В.Д.,02:38
+104,В жизни так бывает,Lizer,03:35
+105,Какого цвета счастье?,Вишневый Закат,04:17
+106,Леший,Нейромонах Феофан,02:08
+107,Boss Wave,Xilent,03:44
+108,Kill The Noise,"Kill the Noise, Dill Francis",04:43
+109,First of the Year (Equinox),Skrillex,04:22
+110,Crystallize,Lindsey Stirling,04:19
+111,Окей,Тима Белорусских,02:40
+112,Втюрилась,Дора,02:04
+113,hot girl bummer,blackbear,03:05
+114,Godzilla,"Eminem, Juice WRLD",03:31
+115,TNT,Back In Black,03:34
+116,Circus for a Psycho,Skillet,04:32
+117,Fuel,Metallica,04:30
+118,Sweet N’ Psycho,Scarlet,02:57
+119,Plague,"Asper X, Ctrl+Freak",04:00
+120,Who's Ready for Tomorrow,"Rat Boy, IBDY",01:56
+121,Чернобыль,Essecer,04:38
+122,"Кьюэй, не плюй мне в душу",Арчет,02:44
+123,I Really Want to Stay at Your House,"Rosa Walton, Hallie Coggins",04:22
+124,Мгновение,ГОРШЕНЕВ,05:10
+125,Независимые события,Научно-технический рэп,03:18
+126,Gradual Shift,Lyde,05:50
+127,Ножевое,"Sellout, МодеМ, Fun Mode",03:05
+128,The Return of Thunder,The Last Sighs Of The Wind,06:05
+129,Кромешник,"Norma Tale, лунный бард",02:14
+130,Monsta,Asper X,02:42
+131,Polarize,twenty one pilots,03:47
+132,Whiskey and Winter,Hushtones,03:11
+133,I Saw Three Ships,Lindsey Stirling,02:34
+134,Снежинка,Папин Олимпос,04:24
+135,новый год,наше последнее лето,02:35
+136,Нашла кого любить,"Рок-Опера Орфей, Ясвена, Вера Зудина",05:30
+137,молчаливое согласие небес,pyrokinesis,02:15
+138,Sparkle,Worakls,05:05
+139,Дух времени,Lumen,05:52
+140,Одинаковые шрамы,El Mashe,03:06
+141,Теория безумия,SuperZloy,01:44
+142,Run,AIM WIND X,02:18
+143,НЛО,Anacondaz,04:46
+144,Зомби,Anacondaz,04:40
+145,"На случай, если я когда-нибудь умру",STERVELL,03:58
+146,Будь что будет,"Рок-Опера Орфей, Egorov",03:34
+147,Понарошку,Дора,02:26
+148,Покорители картона,Фэнтезиан,05:46
+149,Антиматерия,"Plamenev, iwantsummer",03:46
+150,Птица,Lumen,05:00
+151,Бросить вызов,"Following The Spark, Восход",03:18
+152,Буря,Рубеж Веков,03:42
+153,Эфир,Дайте танк (!),03:19
+154,Чай,"Psycho Party!, VSEMOJNO",04:07
+155,Ведьма и экзорцист,"Norma Tale, SATAROVA",02:52
+156,Love Is,M.E.O.W,02:47
+157,Инопланетяне,Двадцать,04:27
+158,Лучший работник,Йемен,04:18
+159,Страшно,PALC,03:40
+160,Хозяин ярмарки,Блуждающие Огни,03:34
+161,Пустые глаза,"Восход, измарьям",03:10
+162,Локус генома,Asper X,04:03
+163,Жизнь – лаборатория,Таверна,03:03
+164,Cutlass,MDK,04:35
+165,Хорошая сторона,Anacondaz,05:15
+166,ЗАЙКА 2,Мэйби Бэйби,01:53
+167,В небе гром,"Nikita Yamov, Anna Reynolds",03:37
+168,Почему я люблю фэнтези,Norma Tale,02:23
+169,Бастион фантазий,"инари, ANTARCTIC",05:03
+170,Монами,"RAVANNA, наше последнее лето",02:26
+171,когда-нибудь,"Lizer, Highself",03:41
+172,"мама, телефон","Lizer, Highself",02:23
+173,некуда бежать,"Lizer, Highself",01:53
+174,Содденский Холм,Хеменес,03:40
+175,Осенняя,Восход,04:00
+176,Возможны смерчи,ЭЛЕКТРОСЛАБОСТЬ,04:20
+177,Scars,No name faces,04:02
+178,Caprice,Worakls,05:12
+179,eat slay love,"bbno$, Käärijä",02:02
+180,The Cycle of Songs,Sabaton,05:39
+181,Maid of Steel,Sabaton,03:17
+182,Crossing the Rubicon,Sabaton,03:29
+183,Templars,Sabaton,04:54
+184,1-800,"bbno$, ironmouse",03:30
+185,Romantic Revenge,Jelonek,04:24
+186,Again,Baby Lasagna,02:22
+187,Плач Персефоны,Рок-Опера Орфей,03:22
+188,Песня Юлия,ЗВЕНО REMIXES,02:17
+189,Ночная,Восход,03:20
+190,Пешки,"Восход, Bedroom Prod, Frogmarionne, Yours Buttercup",02:47
+191,Мы есть,"MrLololoshka, Archmage Eternal, Восход, PryAnnya",03:54
+192,Грани вселенной,"Восход, PryAnnya, UniversalCraft",03:36
+193,На реальных событиях,"U-Topia, RAM",03:01
+194,"Жан дю Плесси, де Ришелье",Хеменес,03:44
+195,Деметра,"Рок-Опера Орфей, Egorov, Юлиана Савченко",03:20
+196,Великое пламя,"Восход, PryAnnya, Archmage Eternal, MrLololoshka",03:09
+197,Сияние,"Quineros, Archmage Eternal, MrLololoshka, Восход",04:26
+198,Верный путь,"Восход, Archmage Eternal, MrLololoshka, Размечталась, PryAnnya",03:43
+199,Я где-то далеко,"Ksenon, МС ПОХ",03:04
+200,two,bbno$,02:15
+201,ВЕЧНО 17,GSPD,03:08
+202,Линии жизни,Asper X,04:27
+203,Подснежники,"Norma Tale, VULPES VULT!",03:15
+204,Кукла вуду,El Mashe,04:11
+205,Город,PRAVADA,03:30
+206,Dopamine,Baby Lasagna,01:39
+207,What It Sounds Like,"HUNTR/X, EJAE, AUDREY NUNA, Rei Ami, KPop Demon Hunters Cast",04:10
+208,Your Idol,"Saja Boys, Andrew Choi, Neckwav, Danny Chung, Kevin Woo, samUIL Lee",03:12
+209,Takedown,"HUNTR/X, EJAE, AUDREY NUNA, Rei Ami, KPop Demon Hunters Cast",03:02
+210,Golden,"HUNTR/X, EJAE, AUDREY NUNA, Rei Ami, KPop Demon Hunters Cast",03:15
+211,Soda Pop,"Saja Boys, Andrew Choi, Neckwav, Danny Chung, Kevin Woo, samUIL Lee",02:31
+212,How It’s Done,"HUNTR/X, EJAE, AUDREY NUNA, Rei Ami, KPop Demon Hunters Cast",02:56
+213,Солнца свет,ВАНФИ,03:18
+214,Каин,Lofecraft,01:53
+215,Happy Nation,"Братство Атома, Yann Zhanchak",02:50
+216,boom,bbno$,02:43
+217,Переверни страницу,Lumen,03:45
+218,Funky Town,"MATTN, Maurice West",02:48
+219,it boy,bbno$,02:26
+220,Интроверт,OMNIXX,02:15
+221,ещё помню,наше последнее лето,02:02
+222,Алые паруса,"Norma Tale, гокки",03:32
+223,Heartless Madness,Dynazty,04:00
+224,Вояджер-1,Noize MC,03:35
+225,Walking The Wire,Imagine Dragons,03:53
+226,Подземелья и драконы,Norma Tale,02:23
+227,Yes I'm A Mess,AJR,02:45
+228,МОМЕНТ,YADDAY,02:36
+229,Дождь,Екатерина Яшникова,03:06
+230,Умирать или убивать,Soltwine,03:06
+231,Сноу,Айрэ и Саруман,03:40
+232,Убить королеву,Зимавсегда,04:01
+233,Мрачные звоночки,The Hatters,02:08
+234,ПУЛЬС,"GSPD, КУОК",03:29
+235,ТРИГГЕР,Psycho Party!,02:59
+236,Всё разбито,"KASKAD, Asper X, СОВЕРГОН, VULPES VULT!, ПАНЦУШОТ, Танцы сознания",04:28
+237,Eyes Closed,"Imagine Dragons, J Balvin",03:20
+238,Kid,Imagine Dragons,02:40
+239,In Your Corner,Imagine Dragons,04:00
+240,Take Me to the Beach,Imagine Dragons,02:47
+241,Eyes Closed,Imagine Dragons,03:20
+242,Wake Up,Imagine Dragons,02:47
+243,One Day,Imagine Dragons,02:31
+244,They Don't Know You Like I Do,Imagine Dragons,04:18
+245,Younger,Imagine Dragons,03:12
+246,Peace Of Mind,Imagine Dragons,02:54
+247,Waves,Imagine Dragons,03:45
+248,Sharks,Imagine Dragons,03:11
+249,Symphony,Imagine Dragons,02:56
+250,Долго И Дорого!/Быстро И Дёшево!,Plamenev,02:06
+251,Мамкин хакер,Научно-технический рэп,02:47
+252,Видение,ГУДТАЙМС,03:14
+253,Эпитафия,"DEEP-EX-SENSE, Лжедмитрий IV, Asper X",06:05
+254,Главный герой,Norma Tale,02:45
+255,Корабли,К.В.Д.,03:09
+256,Трещины на асфальте,Папин Олимпос,03:23
+257,Секреты,U-Topia,03:19
+258,Кухни,Бонд с кнопкой,02:21
+259,До скорой встречи!,Звери,04:16
+260,Районы-кварталы,Звери,03:24
+261,Время Сумерек,"Fun Mode, FIZICA",03:02
+262,Про лича,Fun Mode,01:55
+263,Выше,Fun Mode,03:57
+264,Надо было ставить линукс V.2.0.0,Научно-технический рэп,02:55
+265,Города людей,Ян Гэ,03:27
+266,Шаганэ,Монеточка,03:01
+267,I.d.e.,Научно-технический рэп,02:27
+268,страх,нежность на бумаге,02:28
+269,Сотру,Вишневый Закат,02:10
+270,Маски,Извините за опоздание,03:45
+271,antidepressants,bbno$,01:59
+272,Прости,"Asper X, VULPES VULT!",03:52
+273,Unholy Siege,Finishing Move Inc.,04:44
+274,Mystical,M.E.O.W,02:01
+275,Купала,"Кот-Баюн, IVANdaMARYA",03:53
+276,The Law,"Reach, Zardonic",03:50
+277,Rock and Stone,Wind Rose,05:05
+278,Hordes of Khan,Sabaton,03:43
+279,Ma Meilleure Ennemie ft. Coldplay (from the series Arcane League of Legends),"Stromae, Pomme, Coldplay, Elyanna, Arcane, League of Legends",03:22
+280,Dear Future Self (Hands Up),"Fall Out Boy, Wyclef Jean",02:50
+281,Рычаг Архимеда,Norma Tale,03:26
+282,Суета,Пневмослон,02:21
+283,Blade,D'Angello & Francis,02:48
+284,Monster,MusicbyAden,02:34
+285,Firework,Katy Perry,03:48
+286,Выход в город,Noize MC,03:09
+287,Друзья,"СТИНТ, KSB muzic",02:06
+288,"Туда, где небо",СЛОТ,04:02
+289,Immortals,M.E.O.W,03:27
+290,Кого нет,TMNV,03:27
+291,Попытки,"100 Атмосфер, Катя Смолина",04:04
+292,Коты,Морфинизм Пыльцы,03:55
+293,Это пройдет,"Джарахов, PIZZA",03:20
+294,Ранены,FIZICA,03:12
+295,Не делай людям добра,группа Ветер,03:40
+296,Everybody Loves Me,OneRepublic,03:34
+297,Nyan Cat Theme,Nyan Cat,03:46
+298,ты удобрение,Женя Сычёв,03:42
+299,Картина,El Mashe,04:09
+300,Добрый некромант,Marvel Factory,02:46
+301,Voices In My Head,Falling In Reverse,03:11
+302,Деревья,Руслан Утюг,02:40
+303,Вечное сияние чистого разума (Remastered 2023),Soltwine,03:24
+304,Звёзды в метро,ФРАНКЛИ,03:12
+305,мои маленькие кошмары,mzlff,04:22
+306,Котёнок,Папин Олимпос,03:34
+307,Resurrection by Erection (The Monumental Mass),Powerwolf,04:06
+308,Страшный мир,Lofecraft,03:00
+309,On Top of the World,Tim McMorris,03:37
+310,Come Play (from the series Arcane League of Legends),"Stray Kids, Young Miko, Tom Morello",02:42
+311,Так как ты,iOSTRA,03:41
+312,sweater holes,дипинс,02:06
+313,check,bbno$,02:02
+314,мы не станем другими,"mzlff, GSPD",02:31
+315,Песня про кота,Soltwine,03:23
+316,Устал,СОВЕРГОН,02:10
+317,Lumen,"M.E.O.W, Амая",03:08
+318,OIIA OIIA,"Hyper VIPER, GopStop, TECHNO KING",02:05
+319,"Don’t hate yourself, but don’t love yourself too much",Baby Lasagna,02:20
+320,Rock This Party,"Bob Sinclar, Cutee B., Dollarman, Big Ali, Makedah",04:05
+321,I’ll Make It Up To You,Imagine Dragons,04:23
+322,Назад в будущее,STERVELL,02:46
+323,Волчок,Asper X,04:14
+324,Biggie Boom Boom,Baby Lasagna,02:37
+325,Звёзды мне стреляют глазки,Lofecraft,02:32
+326,Gods Don’t Pray,Imagine Dragons,02:50
+327,Хмурый,The Hatters,03:25
+328,Делать,Asper X,02:29
+329,Закричу на весь мир,Танисия,05:20
+330,Show,Ado,03:13
+331,Fallen,Imagine Dragons,02:59
+332,"За то, чего нет",Lumen,03:50
+333,Hyena,Coone,03:33
+334,Сон Нереид,"ТЕППО, Drummatix",03:15
+335,Adrenaline,M.E.O.W,03:20
+336,"Пей, лечись, люби","Asper X, Гарри Топор",02:52
+337,Whispers,U-Topia,01:38
+338,Battle Cry,Imagine Dragons,04:33
+339,Rollin' (Air Raid Vehicle),Limp Bizkit,03:34
+340,Not Alone,Linkin Park,04:13
+341,Я приду к тебе с клубникой в декабре,pyrokinesis,04:39
+342,Вместе,Asper X,03:06
+343,50000 секунд,baur karbon,03:43
+344,Светлая полоса,Noize MC,03:51
+345,Никто не пострадал,"Noize MC, Монеточка, Витя Исаев",02:32
+346,Open Air,Noize MC,04:10
+347,Самка богомола,Noize MC,04:20
+348,Атлантида,"Noize MC, Дмитрий Емельянов",04:42
+349,Всё будет,TMNV,02:00
+350,нежное электричество,pyrokinesis,03:20
+351,Prey,BassnPanda,02:38
+352,Причины для радости,Noize MC,03:16
+353,Инфоповод,PALC,02:33
+354,Сгораю,Asper X,02:53
+355,What Makes You Beautiful,The Summer Set,03:19
+356,The Last Of The Real Ones,Fall Out Boy,03:52
+357,ты не поймёшь,"СТИНТ, mzlff",02:32
+358,Abyss,YUNGBLUD,02:03
+359,Представь,Soltwine,03:36
+360,Try This,Pegboard Nerds,03:49
+361,в ад только перед тобой в рай только после тебя,"pyrokinesis, BOOKER",02:45
+362,Сюрприз,Дайте танк (!),03:13
+363,Просьба,Дайте танк (!),00:53
+364,М,Дайте танк (!),03:20
+365,Важно,The Hatters,03:59
+366,Любить,Asper X,02:25
+367,Сказать в глаза,Soltwine,02:27
+368,Заряжай,Asper X,03:38
+369,Everybody Talks,Neon Trees,02:57
+370,Fourth Of July,Fall Out Boy,03:44
+371,Mouth Of The River,Imagine Dragons,03:42
+372,"Boom, Boom, Boom, Boom!!","Jordiz, Tatsunoshin, Sonja",02:36
+373,EMPTY FUNK,"DJ Anemia, Crier, sixnite",02:33
+374,Чтобы не забыть,"МОЛОДОСТЬ ВНУТРИ, Asper X",03:33
+375,Колобок | Катаный Джо,Wallace Band,02:47
+376,ПОВОД,MORGENSHTERN,02:33
+377,"ДОМ (Лондон, Прага, Ницца)",MORGENSHTERN,02:34
+378,КРАСНЫЙ ФЛАГ,MORGENSHTERN,02:26
+379,Незнакомка,Asper X,03:37
+380,точки моих опор,pyrokinesis,02:05
+381,50 на 50,pyrokinesis,02:31
+382,день рождения наоборот,pyrokinesis,02:30
+383,мы попадём с тобою в ад,pyrokinesis,02:30
+384,моя великая вина,pyrokinesis,03:35
+385,Луч света на черный день,Sellout,02:46
+386,Somebody Told Me,Motionless In White,03:19
+387,Kylie,Balboa Son,04:08
+388,Empty,The Cranberries,03:27
+389,5,pyrokinesis,04:38
+390,Ток,"Noize MC, Вахтанг",04:16
+391,The Beast (from the series Arcane League of Legends),"Misha Mansoor, Arcane, League of Legends",03:51
+392,To Ashes and Blood (from the series Arcane League of Legends),"Woodkid, Arcane, League of Legends",04:06
+393,Renegade (We Never Run) (from the series Arcane League of Legends),"Raja Kumari, Stefflon Don, Jarina De Marco",02:41
+394,Вернуться,Екатерина Яшникова,04:53
+395,Праздничная,Asper X,02:54
+396,Dirty Little Animals (from the series Arcane League of Legends),BONES UK,03:25
+397,Behind Blue Eyes,Limp Bizkit,04:29
+398,Вселенная бесконечна?,Noize MC,04:21
+399,Highway to Hell,Back In Black,03:28
+400,Wasteland (from the series Arcane League of Legends),"Royal & the Serpent, Arcane, League of Legends",02:41
+401,Бисер,PALC,02:45
+402,Dynasties and Dystopia (from the series Arcane League of Legends),"Denzel Curry, Gizzle, Bren Joy",02:58
+403,Письмо в детство,"Sellout, Операция Пластилин",03:20
+404,Paint The Town Blue (from the series Arcane League of Legends),"Ashnikko, Arcane, League of Legends",01:56
+405,однополярности,"mzlff, STED.D",02:50
+406,Патрон,Asper X,04:54
+407,ЁК,Дора,02:39
+408,Дьявол ждёт меня!,"Plamenev, Гнев Господень",03:38
+409,После вас,Три Смычка,04:46
+410,Письмо Деду Морозу,El Mashe,03:09
+411,Старый я,Заточка,03:59
+412,мечта,"Lizer, Highself",02:50
+413,Ослепительно молодой мир,"Plamenev, Александр Хананин, Ира Демидова",03:03
+414,Каждый справляется сам,Asper X,05:50
+415,Children of the Sky (a Starfield song),Imagine Dragons,03:28
+416,Story Of My Life,Bon Jovi,04:09
+417,Скоро узнаешь,Asper X,03:03
+418,Пустота,"Asper X, Ctrl+Freak",03:46
+419,Into the Unknown,"Panic! At The Disco, Холодное сердце",03:09
+420,Christmas Saves The Year,twenty one pilots,03:32
+421,Let It Go,Dead by April,03:11
+422,Rim Tim Tagi Dim,Baby Lasagna,02:59
+423,Mortal Kombat,Братство Атома,02:23
+424,Duncan,U-Topia,03:13
+425,Hallelujah,Seraphim,04:21
+426,Мразь,TMNV,02:34
+427,Тризна,TMNV,02:20
+428,Колокол,TMNV,03:15
+429,EBSH,TMNV,03:01
+430,Da Da Da (the arp song),Marshmello,02:12
+431,In The Cut,"Marshmello, Viperactive",02:48
+432,Run Up,Marshmello,03:10
+433,Just Can't Stop,Marshmello,02:33
+434,Чёрный плащ,Братство Атома,01:31
+435,Банши II,"Norma Tale, Сны Саламандры",03:24
+436,Улыбайся,Norma Tale,03:24
+437,Немеи,Нейромонах Феофан,03:33
+438,Слыш работать,SUBUS,03:12
+439,Дядюшка Сяо,Б.А.У.,03:33
+440,Енот-некромант,Братство Бобра,06:05
+441,Пока есть рейв,ZAPRAVKA,03:11
+442,Psycho Celtic,Technical Hitch,06:43
+443,Dreadnought,Мельница,04:05
+444,GAIA,"Machinyst, Code: Pandorum, Qoiet",04:02
+445,Crushed,Imagine Dragons,03:09
+446,Солнце взойдёт,Гражданская оборона,04:41
+447,Маленький,Дайте танк (!),04:05
+448,SLAY ROCK!,"Eternxlkz, Ravens Rock",01:49
+449,В бой,"Lumen, Юрий Шевчук",05:37
+450,I’ll BE GONE,Linkin Park,03:31
+451,Dull Knives,Imagine Dragons,03:33
+452,Пол – это лава,Заточка,04:14
+453,Древнерусская душа,Нейромонах Феофан & СЛОТ,04:30
+454,Лепесток,Начало!,02:54
+455,Мизинчик,Хитобои,03:14
+456,Выбор,LOUNA,04:21
+457,Кот-Баюн,Кот-Баюн,03:40
+458,Gravity Falls,Derex,02:33
+459,Сурикаты,Николай Гринько,03:40
+460,твоё одиночество,нежность на бумаге,03:35
+461,Get Up,Fil Swan,03:49
+462,Сердца в огне,"RAM, GSPD",03:21
+463,Ищи человека!,Туризм,04:01
+464,Солнышко,Миконжас,03:44
+465,Sid & Nancy,Lumen feat. Olympic Orchestra,03:45
+466,Hyper Krushed (Slowed),N1VALL,01:32
+467,Bankai,"Onderkoffer, SWACQ",02:15
+468,Shoot Me,The Hatters,03:39
+469,Я глуп,Noize MC,03:50
+470,Bye Bye Bye,BackWordz,03:35
+471,Красиво,"Костя Кулясов, АнимациЯ & План Ломоносова",04:36
+472,Пожары,XOLIDAYBOY,03:18
+473,Время найдёт нас,"The Hatters, polnalyubvi",03:04
+474,Кошмары,Руслан Утюг,02:57
+475,Сам,"Noize MC, RasKar",03:50
+476,Дворцовый мост,pyrokinesis,02:20
+477,Feebleness,"TMNV, Teaching in Trips",03:38
+478,Калинка,TMNV,02:48
+479,До дому,TMNV,02:13
+480,Депутат,TMNV,03:08
+481,Traumatic Song,M.E.O.W,03:04
+482,Machine Gun,"Noisia, Zardonic",03:36
+483,Эдем,Asper X,02:32
+484,Скоротечно,Пневмослон,02:59
+485,Let Me See Ya,Zatox,02:50
+486,Терновый куст,"Norma Tale, VULPES VULT!",02:47
+487,Звезды Горят,СОВЕРГОН,02:27
+488,Рэйв в аду,"ANTARCTIC, UNREAL",03:27
+489,Кудрями рыжими,Soltwine,03:20
+490,Block,M.E.O.W,04:03
+491,Веселиться в атмосфере пиздеца,Пневмослон,02:31
+492,Кисточка II,"Norma Tale, Ramon Tale",03:01
+493,Бесприютная душа,ANTARCTIC,02:27
+494,Отдайте сердца,ANTARCTIC,02:40
+495,Pump It Up,Danzel,02:37
+496,Трасса Е-95,Алиса,03:37
+497,Sarà perchè ti amo,Ricchi E Poveri,03:35
+498,Eye of the Tiger,Survivor,04:02
+499,T.N.T.,AC/DC,03:28
+500,Akkumulator,Sturmmann,02:52
+501,Diggy Diggy Hole,Wind Rose,05:16
+502,LOST IN THE ECHO,Linkin Park,03:25
+503,Geronimo,Sheppard,03:38
+504,Жар,TMNV,02:47
+505,звёзды все принадлежат богам,pyrokinesis,03:17
+506,Как в последний раз,Порнофильмы,05:39
+507,Broken Dreams,Fallen Sanctuary,04:12
+508,Sirens,Imagine Dragons,02:35
+509,Время танцевать,"Екатерина Яшникова, нежность на бумаге",02:46
+510,You Spin Me Round,Caffeine,02:42
+511,Дотянуться до звезды,Lumen,03:07
+512,Дыши,Lumen,03:26
+513,Над пропастью...,Lumen feat. Olympic Orchestra,04:30
+514,Небеса,Lumen,04:22
+515,Харакири (Песня группы «Гражданская оборона»),Lumen,02:21
+516,Выше!,Lumen,02:40
+517,Видимо-Невидимо,Николай Гринько,04:11
+518,Не переживай,Asper X,03:09
+519,Bust 'Em,Party Favor,02:56
+520,Breaking the Habit,Linkin Park,03:16
+521,Gladiator,Jann,03:32
+522,Поезда,"Женя Трофимов, Комната культуры",03:00
+523,Дрянь,Asper X,03:26
+524,Квесты,"Костя Кулясов, АнимациЯ",03:24
+525,Highway to Рай,U-Topia,02:02
+526,Очередная песня про любовь,Джарахов,02:35
+527,Привидения,Asper X,03:33
+528,WAWA,Party Favor,02:30
+529,I Don't Like Myself,Imagine Dragons,03:05
+530,Bucin Kali Pun,Afrian Af,03:42
+531,Let's Go,JAXSON GAMBLE,02:07
+532,The Sharpest Lives,Plainview,03:18
+533,i kissed,yungalligator,02:56
+534,Веснушки,pyrokinesis,03:28
+535,Нахуй он пошёл и рот ебать его,Пневмослон,02:06
+536,Зависимость,pyrokinesis,02:47
+537,Один,Вишневый Закат,02:55
+538,Все хотят меня поцеловать,Пошлая Молли,02:24
+539,SHATTER,"Marshmello, Pyke",03:39
+540,LOADED,"Marshmello, Infekt",02:55
+541,Птичка,Монеточка,02:34
+542,Селфхарм,Монеточка,03:08
+543,Жучка,Монеточка,02:41
+544,Монополия,Монеточка,03:38
+545,Контракт,Пошлая Молли,03:25
+546,Классики,"Tamagotchik, Asper X",03:23
+547,а что если смерть существо?,pyrokinesis,04:26
+548,E.T.,Rebirth of Enora,03:33
+549,Сумасшедшим вход бесплатно,Asper X,04:47
+550,Survivor,Emil Bulls,04:08
+551,Faint,Linkin Park,02:42
+552,All Time Low,Patent Pending,03:42
+553,Дайте поспать,Ростислав Чебыкин,03:08
+554,Smoke And Mirrors,Imagine Dragons,04:21
+555,Ядовитые,Asper X,03:35
+556,Sudah Pernah Tole,Afrian Af,03:16
+557,И опять сначала...,Plamenev,02:50
+558,DEAD PARTY,REDFXRD,02:45
+559,Monodrama,"HOYO-MiX, Tsar",01:59
+560,Гореть (2023),Lumen,05:21
+561,DIGITAL CIRCUS,"SIXQUEET, Loomie",01:35
+562,Месть,Джоконда,04:24
+563,ELEVATE!,"Sinizter, RAIZHELL, Sadfriendd",02:04
+564,шёпот далёких звёзд,pyrokinesis,03:09
+565,How Far I'll Go,No Resolve,02:55
+566,Полюса,LOUNA,04:30
+567,Bleed It Out,Linkin Park,02:45
+568,Hole in the Wall,Silencee,03:06
+569,COFFIN,PLVTINUM,01:42
+570,PENDEJO,Kavero,02:13
+571,Я ухожу,"Sellout, Йорш",03:20
+572,The Hanging Tree,"James Newton Howard, Jennifer Lawrence",03:39
+573,In My Blood,The Score,03:45
+574,Кукловод,"Green Apelsin, pyrokinesis",03:20
+575,Higher Ground,Imagine Dragons,02:42
+576,Никто вместо нас,Plamenev,04:39
+577,Дора дура,Дора,02:14
+578,Falling Stars,"DVRST, polnalyubvi",02:34
+579,Космос,Братство Атома,02:58
+580,ESA,"blueberry, BRXLINE",01:51
+581,Да что романтичного в птичках?,pyrokinesis,02:10
+582,История Аквилона,нехудожник.,02:31
+583,Можно я с тобой,DVN,02:12
+584,Петь в тишине,Asper X,03:49
+585,Aztec Death Whistle,oddprophet,04:55
+586,Древнерусский фонк,TMNV,02:03
+587,BRAZILIAN DANÇA PHONK,"6YNTHMANE, RXDXVIL",01:58
+588,Wanderer,"Broken Minds, D-Frek",03:10
+589,JESSE JAMES,GRAVEDGR,03:27
+590,Надо улыбаться,Asper X,03:57
+591,TUK TAK TAU,HXVSAGE,01:36
+592,Gladiadora,Madeinnline,01:38
+593,RITMO DE MORTE,Rushex,01:38
+594,SHOUTA,"DR MØB, MC MORENA",01:31
+595,Wanna Play?,The Prophet,03:21
+596,Death Juice,Kai Wachi,03:06
+597,Держись,Asper X,04:06
+598,Тьма во мне,Нейромонах Феофан,03:15
+599,Ты будешь гореть в аду,Asper X,04:05
+600,Спи спокойно,Нервы,03:26
+601,Ураган,Нейромонах Феофан,03:12
+602,Смерть луны,Asper X,03:21
+603,666Hz,Nosphere,03:33
+604,Scream Saver,Subtronics,03:57
+605,Mashuka Dance,blueberry,01:36
+606,Rockefeller Street (New Nightcore),Getter Jaani,02:35
+607,Корми демонов по расписанию,pyrokinesis,04:00
+608,Bad Trip,Asper X,03:35
+609,Город Омск,Александр Пушной,03:49
+610,Колхоз,Ростислав Чебыкин,01:56
+611,Happy and You Know It,Bear Grillz,02:00
+612,Станцую на твоей могиле,Green Apelsin,03:08
+613,Не время для драконов,pyrokinesis,03:51
+614,Речушечка,TMNV,02:48
+615,Fly With You,Alfons,02:01
+616,Saka Saka,"blueberry, Diseleit, Senpai4ik",01:33
+617,Задолбался!,"Suleeking Nazlim, Violenur",02:34
+618,Shockwave,Marshmello,03:01
+619,Never Met!,ENCASSATOR,01:32
+620,Лабиринт,Не спать!,03:11
+621,Нон стоп,Пошлая Молли,03:34
+622,Танцуй или умри,Lida,02:17
+623,Cure For Me,AURORA,03:22
+624,Порно и коты,Научно-технический рэп,02:57
+625,ОКО,pyrokinesis,02:41
+626,410,наше последнее лето,02:12
+627,Снежная,Soltwine,02:49
+628,Revolution,The Score,03:52
+629,Где-то там,"The Hatters, TRITIA",02:58
+630,Boomerang,Imagine Dragons,03:08
+631,Rockhill,Beltaine,03:23
+632,Утро,Дайте танк (!),02:27
+633,Фотографирую закат,fem.love,02:36
+634,Release,Imagine Dragons,02:28
