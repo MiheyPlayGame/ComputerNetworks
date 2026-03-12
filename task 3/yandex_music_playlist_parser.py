@@ -247,7 +247,8 @@ def run_parser(use_auth=False, headless=True, playlist_url=None, save_csv=True):
                     break
             else:
                 no_new_count = 0
-            if at_bottom:
+            # Don't break on at_bottom until we've seen at least one track (page may not have loaded yet)
+            if at_bottom and len(accumulated) > 0:
                 break
 
         # Перенумеровываем позиции и сохраняем
@@ -255,6 +256,8 @@ def run_parser(use_auth=False, headless=True, playlist_url=None, save_csv=True):
 
         if save_csv:
             save_to_csv(all_tracks, CSV_PATH)
+        else:
+            print(f"Треков распознано: {len(all_tracks)}")
 
         context.close()
         browser.close()
@@ -292,11 +295,20 @@ def main():
         action="store_true",
         help="Режим сохранения авторизации (ручной вход)",
     )
+    parser.add_argument(
+        "--no-csv",
+        action="store_true",
+        help="Не сохранять результат в CSV (только вывести количество треков)",
+    )
     args = parser.parse_args()
     if args.save_auth:
         save_auth_state()
     else:
-        run_parser(use_auth=args.auth, headless=not args.visible)
+        run_parser(
+            use_auth=args.auth,
+            headless=not args.visible,
+            save_csv=not args.no_csv,
+        )
 
 
 if __name__ == "__main__":
