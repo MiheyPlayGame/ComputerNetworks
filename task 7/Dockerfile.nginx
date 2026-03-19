@@ -1,0 +1,30 @@
+FROM debian:bookworm-slim
+
+RUN set -eux; \
+    for i in 1 2 3; do \
+        apt-get update -o Acquire::Retries=5 && \
+        apt-get install -y --no-install-recommends --fix-missing \
+            -o Acquire::Retries=5 \
+            nginx \
+            libnginx-mod-http-geoip2 \
+            ca-certificates && break; \
+        echo "apt failed, retrying ($i/3)..." >&2; \
+        sleep 5; \
+    done; \
+    dpkg -s nginx libnginx-mod-http-geoip2 >/dev/null 2>&1; \
+    mkdir -p /etc/nginx/geoip; \
+    mkdir -p /etc/nginx/modules-enabled; \
+    if [ -f /usr/lib/nginx/modules/ngx_http_geoip2_module.so ]; then \
+        printf "load_module /usr/lib/nginx/modules/ngx_http_geoip2_module.so;\n" > /etc/nginx/modules-enabled/50-mod-http-geoip2.conf; \
+    else \
+        echo "GeoIP2 nginx module file not found"; \
+        exit 1; \
+    fi; \
+    rm -f /etc/nginx/sites-enabled/default; \
+    rm -rf /var/lib/apt/lists/*
+
+EXPOSE 80
+
+STOPSIGNAL SIGTERM
+
+CMD ["nginx", "-g", "daemon off;"]
