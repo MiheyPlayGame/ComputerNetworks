@@ -1,0 +1,5 @@
+google.com
+github.com
+yandex.ru
+nsu.ru
+cloudflare.com

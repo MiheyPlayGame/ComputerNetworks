@@ -1,0 +1,84 @@
+﻿
+===== TRACERT 64.233.164.139 =====
+
+
+Tracing route to 64.233.164.139 over a maximum of 12 hops
+
+  1     1 ms     1 ms     1 ms  10.3.128.1 
+  2     2 ms     1 ms     1 ms  84.237.49.5 
+  3     3 ms     1 ms     1 ms  84.237.49.138 
+  4     2 ms     2 ms     1 ms  95.170.130.189 
+  5    55 ms    58 ms    74 ms  85.112.122.5 
+  6    61 ms    55 ms    56 ms  195.208.208.232 
+  7     *       65 ms    65 ms  172.253.75.61 
+  8     *        *        *     Request timed out.
+  9    73 ms     *       76 ms  216.239.51.32 
+ 10    71 ms    71 ms    72 ms  108.170.232.251 
+ 11    72 ms    72 ms    75 ms  216.239.63.65 
+ 12     *        *        *     Request timed out.
+
+Trace complete.
+
+===== TRACERT 140.82.121.4 =====
+
+
+Tracing route to 140.82.121.4 over a maximum of 12 hops
+
+  1     1 ms     1 ms     1 ms  10.3.128.1 
+  2     2 ms     1 ms    <1 ms  84.237.49.5 
+  3     4 ms     1 ms     1 ms  84.237.49.138 
+  4     3 ms     1 ms     1 ms  95.170.130.189 
+  5     2 ms     9 ms     2 ms  188.234.79.52 
+  6    42 ms    43 ms    43 ms  213.248.97.53 
+  7    49 ms    49 ms    49 ms  213.248.97.52 
+  8    56 ms    56 ms    56 ms  62.115.139.102 
+  9     *       85 ms    84 ms  62.115.143.29 
+ 10    84 ms    84 ms    85 ms  62.115.124.117 
+ 11    83 ms    98 ms     *     62.115.182.171 
+ 12     *        *        *     Request timed out.
+
+Trace complete.
+
+===== TRACERT 77.88.55.88 =====
+
+
+Tracing route to 77.88.55.88 over a maximum of 12 hops
+
+  1     1 ms     1 ms     1 ms  10.3.128.1 
+  2     1 ms     1 ms     1 ms  84.237.49.5 
+  3     4 ms     1 ms     1 ms  84.237.49.138 
+  4     4 ms     2 ms     3 ms  95.170.130.189 
+  5    60 ms    58 ms    58 ms  194.226.100.90 
+  6    74 ms    73 ms    76 ms  87.250.239.23 
+  7     *        *        *     Request timed out.
+  8     *        *        *     Request timed out.
+  9    72 ms    72 ms    72 ms  77.88.55.88 
+
+Trace complete.
+
+===== TRACERT 84.237.49.123 =====
+
+
+Tracing route to 84.237.49.123 over a maximum of 12 hops
+
+  1     1 ms     1 ms     1 ms  10.3.128.1 
+  2    46 ms    50 ms    48 ms  84.237.49.114 
+  3     1 ms     1 ms     1 ms  84.237.49.123 
+
+Trace complete.
+
+===== TRACERT 104.16.133.229 =====
+
+
+Tracing route to 104.16.133.229 over a maximum of 12 hops
+
+  1     1 ms     1 ms     1 ms  10.3.128.1 
+  2     1 ms     1 ms     1 ms  84.237.49.5 
+  3     3 ms     1 ms     1 ms  84.237.49.138 
+  4     2 ms     4 ms     2 ms  95.170.130.189 
+  5    52 ms     *       51 ms  85.112.122.5 
+  6    91 ms    91 ms    91 ms  80.81.194.180 
+  7    91 ms    91 ms    91 ms  162.158.84.221 
+  8    87 ms     *       87 ms  104.16.133.229 
+
+Trace complete.
